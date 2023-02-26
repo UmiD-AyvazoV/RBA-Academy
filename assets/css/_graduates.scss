@@ -1,0 +1,31 @@
+main {
+  .section_9 {
+    .sect9Cont {
+      margin-bottom: 0 !important;
+      padding-bottom: 70px;
+      .graduates {
+        flex-wrap: wrap;
+
+        .box {
+          margin-bottom: 20px;
+        }
+      }
+      .boxs {
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .section_9 {
+    .sect9Cont {
+      .graduates {
+        margin-top: 100px;
+        .box {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

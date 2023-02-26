@@ -1,0 +1,153 @@
+main {
+  .courseTitle {
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    h2 {
+      font-family: "Futurica";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 46px;
+      line-height: 60px;
+      text-transform: capitalize;
+      color: #181818;
+    }
+    p {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #181818;
+      margin: 10px 0 80px;
+    }
+  }
+  .coursesCont {
+    display: flex;
+    justify-content: space-between;
+    .left {
+      position: sticky;
+      top: 150px;
+      min-width: 315px;
+      background: #fff;
+      box-shadow: 0px 0px 7px rgba(190, 190, 190, 0.5);
+      padding: 30px;
+      max-height: 966px;
+      overflow-y: scroll;
+      ul {
+        h2 {
+          font-family: "Futurica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 25px;
+          color: #181818;
+          padding-bottom: 3px;
+        }
+        li {
+          list-style: none;
+          border-bottom: 1px solid #d5d5d5;
+          font-family: "Futurica";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 25px;
+          color: #181818;
+          padding: 7px 0;
+        }
+        li:before {
+          content: url("../img/courses/img.png");
+          margin-right: 10px;
+        }
+        li:last-child {
+          border: none;
+        }
+        .last {
+          border-bottom: 3px solid #212121 !important;
+          margin: 10px 0;
+        }
+      }
+    }
+    .left::-webkit-scrollbar {
+      width: 0.2rem;
+      border-radius: 0.5rem;
+      background: hsl(19, 8%, 75%);
+    }
+    .right {
+      .courses {
+        flex-wrap: wrap;
+        height: auto;
+        a {
+          text-decoration: none;
+        }
+        .box {
+          margin-bottom: 20px;
+        }
+        .box:hover {
+          z-index: 999;
+          background: #fff !important;
+          box-shadow: 0px 0px 70px rgba(106, 106, 106, 0.4);
+        }
+      }
+    }
+  }
+  .seo {
+    padding: 144px 120px;
+    .title {
+      h2 {
+        font-family: "Futurica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 37px;
+        color: #181818;
+        margin-bottom: 50px;
+      }
+      p {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #181818;
+      }
+    }
+    .text {
+      display: flex;
+      p {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #181818;
+      }
+      p:first-child {
+        margin-bottom: 30px;
+      }
+      div:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .coursesCont {
+    transform: translateY(50px);
+    .left {
+      display: none;
+    }
+    .right {
+      .box {
+        margin: 0 auto;
+      }
+    }
+  }
+  .seo {
+    .text {
+      flex-direction: column;
+    }
+  }
+}

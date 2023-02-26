@@ -1,0 +1,95 @@
+.center {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.df {
+  display: flex;
+}
+
+.dfBetwen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.none {
+  visibility: hidden;
+  height: 0;
+}
+
+.stars-div {
+  max-height: 20px !important;
+}
+
+.bg {
+  background: #671c7c !important;
+}
+
+.bg svg path{
+  fill: #fff;
+}
+
+.red {
+  color: #fe5538;
+}
+
+.green {
+  color: #52dec1;
+}
+
+.purple {
+  color: #d6a7f9;
+}
+
+.bg-header {
+  background: #fff;
+}
+
+.mySwiper {
+  padding-top: 10%;
+}
+
+.active {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #671c7c !important;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #3ad4d8;
+}
+
+.breakpoint {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #181818;
+  position: absolute;
+  padding: 100px;
+  top: 50px;
+  left: 190px;
+}
+.breakpoint span {
+  width: 6px;
+  height: 6px;
+  background: #3ad4d8;
+  margin: 0 7px;
+  border-radius: 50%;
+}
+.breakpoint p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fe5538;
+}
+
+.mt {
+  margin-top: 300px;
+}

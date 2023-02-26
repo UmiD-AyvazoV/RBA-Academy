@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@import 'mixin';
+@import 'title';
+@import 'header';
+@import 'sect1';
+@import 'sect2';
+@import 'sect3';
+@import 'sect4';
+@import 'sect5';
+@import 'sect6';
+@import 'sect7';
+@import 'sect8';
+@import 'sect9';
+@import 'sect10';
+@import 'sect11';
+@import 'sect12';
+@import 'sect13';
+@import 'footer';
+@import 'about';
+@import 'courses';
+@import 'coursesCourse';
+@import 'exams';
+@import 'examsExam';
+@import 'teachers';
+@import 'news';
+@import 'newsNew';
+@import 'graduates';
+@import 'books';
+@import 'certificates';
+@import 'contact';
+@import 'login';
+@import 'renewalPassword';
+@import 'confirm';
+@import 'cabinet';
+@import 'buyDate';
+@import 'myExam';
+@import 'profile';
+@import 'security';
+@import 'wishList';
+@import 'search';

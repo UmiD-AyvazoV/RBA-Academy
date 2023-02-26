@@ -1,0 +1,111 @@
+main {
+  .section_11 {
+    .sect11Cont {
+      background: #f5f5f5;
+      padding: 120px 0 135px;
+      .swiper {
+        .swiper-slide.swiper-slide-active .img {
+          transform: scale(1.2);
+          box-shadow: 0px 0px 70px rgba(106, 106, 106, 0.4);
+        }
+        height: 410px;
+        padding-top: 30px;
+        .swiper-button-next::after {
+          display: none !important;
+        }
+        .swiper-button-prev::after {
+          display: none !important;
+        }
+        .swiper-button-next {
+          transform: translate(-60px, 180px);
+        }
+        .swiper-button-prev {
+          transform: translate(60px, 180px);
+        }
+      }
+      .title {
+        width: 628px;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        h2 {
+          font-family: "Futurica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 37px;
+          text-transform: capitalize;
+          color: #181818;
+        }
+        p {
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          color: #353535;
+          margin: 16px 0 60px;
+        }
+      }
+      .img {
+        cursor: pointer;
+        text-align: center;
+        width: 263px;
+        padding: 30px 50px;
+        background: #fff;
+        box-shadow: 0px 0px 7px rgba(190, 190, 190, 0.5);
+      }
+      .img:hover {
+        transform: scale(1.2);
+        box-shadow: 0px 0px 70px rgba(106, 106, 106, 0.4);
+      }
+    }
+    .all-btn {
+      display: flex;
+      .all {
+        display: inline-block;
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 19px;
+        color: #34485a;
+        padding: 15px 70px;
+        text-decoration: none;
+        background: #fff;
+        box-shadow: 0px 0px 10px rgba(67, 67, 67, 0.25);
+        border-radius: 50px;
+        margin: 50px auto 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .section_11 {
+    .sect11Cont {
+      .title {
+        width: 90% !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .section_11 {
+    .sect11Cont {
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .section_11 {
+    transform: translateY(-300px);
+  }
+}

@@ -1,0 +1,135 @@
+main {
+  .section_5 {
+    .sect5Cont {
+      max-width: 1440px;
+      margin: auto;
+      padding: 120px 0 178px;
+      .title {
+        width: 628px;
+        margin: auto;
+        text-align: center;
+        h2 {
+          font-family: "Futurica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 37px;
+          text-transform: capitalize;
+          color: #181818;
+        }
+        p {
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          color: #353535;
+          margin: 16px 0 50px;
+        }
+      }
+      .boxs {
+        display: flex;
+        flex-wrap: wrap;
+        .box {
+          cursor: pointer;
+          position: relative;
+          padding-top: 3px;
+          .content {
+            position: relative;
+            .text {
+              position: absolute;
+              bottom: 20px;
+              left: 26px;
+              p {
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 20px;
+                color: #fff;
+              }
+              span {
+                font-family: "Gotham Rounded";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 35px;
+                line-height: 50px;
+              }
+            }
+            .hover {
+              background: #ffffff;
+              box-shadow: 0px 0px 10px rgba(67, 67, 67, 0.25);
+              padding: 80px 26px;
+              position: absolute;
+              top: 0;
+              left: 0;
+              h2 {
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 20px;
+                color: #353535;
+              }
+              span {
+                font-family: "Gotham Rounded";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 35px;
+                line-height: 50px;
+              }
+              p {
+                width: 347px;
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #3e3d3d;
+                margin-top: 16px;
+              }
+            }
+          }
+        }
+          .content:hover {
+            .hover {
+              visibility: visible;
+              height: 313px;
+            }
+          }
+      }
+      .box:nth-child(2) {
+        margin: 0 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .section_5 {
+    .sect5Cont {
+      .title {
+        width: 90% !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .section_5 {
+    .sect5Cont {
+      .boxs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .section_5 {
+    transform: translateY(-300px);
+  }
+}

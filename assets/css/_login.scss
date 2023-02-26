@@ -1,0 +1,219 @@
+main {
+  .login {
+    display: flex;
+    width: 1152px;
+    margin: auto;
+    height: 529px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(190, 190, 190, 0.5);
+    margin-bottom: 120px;
+    margin-top: 220px;
+    .signIn,
+    .signUp,
+    .signInOff {
+      width: 50%;
+      padding: 130px 84px;
+      position: relative;
+      .bigGreen {
+        position: absolute;
+        width: 211px;
+        height: 234px;
+        bottom: -40px;
+        left: -30px;
+        background: #3ad4d8;
+        transform: rotate(-37.25deg);
+        z-index: -1;
+      }
+      .in {
+        width: 341px;
+        input {
+          width: 100%;
+          background: #fff;
+          box-shadow: 0px 0px 10px rgba(67, 67, 67, 0.25);
+          border-radius: 50px;
+          border: none;
+          padding: 11px 23px;
+        }
+        input:nth-child(3) {
+          margin-top: 16px;
+        }
+        h2 {
+          font-family: "Futurica";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 35px;
+          line-height: 44px;
+          color: #191919;
+          margin-bottom: 30px;
+        }
+        img {
+          transform: translate(310px, -27px);
+        }
+        a {
+          background: #543ee9;
+          border-radius: 50px;
+          text-decoration: none;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          color: #fff;
+          padding: 11px 0;
+          margin-top: 10px;
+        }
+      }
+      .check {
+        width: 341px;
+        margin-top: 12px;
+        padding: 0 10px;
+        label {
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          color: #6b6b6b;
+        }
+        a {
+          text-decoration: none;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          color: #353535;
+        }
+      }
+    }
+    .signUp,
+    .signInOff {
+      background: rgba(214, 167, 249, 0.15);
+      .up {
+        margin-top: 20px;
+        h2 {
+          font-family: "Futurica";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 35px;
+          line-height: 44px;
+          color: #191919;
+        }
+        p {
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #353535;
+          margin: 7px 0 50px;
+        }
+        a {
+          text-decoration: none;
+          padding: 11px 0;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          color: #543ee9;
+          border: 1.5px solid #543ee9;
+          border-radius: 50px;
+        }
+      }
+      .bigPurple {
+        position: absolute;
+        width: 292px;
+        height: 458px;
+        top: -10px;
+        right: 10px;
+        background: #671c7c;
+        transform: rotate(22deg);
+        z-index: -1;
+      }
+    }
+    .signInOff {
+      display: none;
+    }
+    .signUpOff {
+      display: none;
+      width: 50%;
+      padding: 67px 104px;
+      h2 {
+        font-family: "Futurica";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 44px;
+        color: #191919;
+        margin-bottom: 30px;
+      }
+      form {
+        position: relative;
+        input {
+          width: 100%;
+          background: #fff;
+          box-shadow: 0px 0px 10px rgba(67, 67, 67, 0.25);
+          border-radius: 50px;
+          border: none;
+          padding: 11px 23px;
+          margin-bottom: 16px;
+        }
+        img:nth-child(5) {
+          position: absolute;
+          bottom: 122px;
+          right: 20px;
+        }
+        img:nth-child(7) {
+          position: absolute;
+          bottom: 67px;
+          right: 20px;
+        }
+        a {
+          text-decoration: none;
+          padding: 11px 0;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          background: #543ee9;
+          color: #fff;
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .login {
+    min-width: 800px !important;
+    flex-direction: column;
+    box-shadow: none !important;
+    padding-bottom: 1000px !important;
+    .signUpOff {
+      background: #fff;
+      box-shadow: 0px 0px 10px rgba(190, 190, 190, 0.5);
+    }
+  }
+}
+
+@media screen and (max-width: 1105px) {
+  .login {
+    margin-bottom: 400px !important;
+    div[class^="top"] {
+      display: none;
+    }
+    .bigPurple,
+    .bigGreen {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .login {
+    max-width: 90%;
+  }
+}

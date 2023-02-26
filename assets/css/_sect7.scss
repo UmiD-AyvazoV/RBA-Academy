@@ -1,0 +1,117 @@
+main {
+  .section_7 {
+    background: #e2eaf8;
+    z-index: -1;
+    .sect7Cont {
+      max-width: 1320px;
+      margin: auto;
+      padding: 158px 0 202px;
+      .left {
+        width: 461px;
+        position: relative;
+        a {
+          position: relative;
+          display: inline-flex;
+          margin-left: -50px;
+          background: #000;
+          z-index: 1;
+          .top {
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            background: rgba(84, 62, 233, 0.8);
+            position: absolute;
+          }
+        }
+        .boxs {
+          .bigGreen {
+            width: 211px;
+            height: 234px;
+            background: #3ad4d8;
+            box-shadow: 30px 4px 27px rgba(82, 82, 82, 0.25);
+            border-radius: 5px;
+            transform: rotate(-37.25deg);
+            position: absolute;
+            top: -50px;
+            left: -80px;
+
+          }
+          .bigPurple {
+            width: 211px;
+            height: 234px;
+            background: #671c7c;
+            box-shadow: 30px 4px 27px rgba(82, 82, 82, 0.25);
+            border-radius: 5px;
+            transform: rotate(-37.25deg);
+            position: absolute;
+            bottom: -30px;
+            right: -10px;
+          }
+        }
+      }
+      .right {
+        width: 566px;
+        margin-left: 84px;
+        h1 {
+          font-family: "Gotham Rounded";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 20px;
+          color: #543ee9;
+        }
+        h6 {
+          font-family: "Futurica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 46px;
+          line-height: 56px;
+          text-transform: capitalize;
+          color: #181818;
+        }
+        p {
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #181818;
+          padding: 25px 0 30px;
+        }
+        a {
+          display: inline-block;
+          background: #543ee9;
+          border-radius: 30px;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 19px;
+          color: #fff;
+          padding: 16px 70px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .section_7 {
+    transform: translateY(-300px);
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .section_7 {
+    .sect7Cont {
+      flex-wrap: wrap;
+      .boxs {
+        display: none;
+      }
+      .right {
+        margin-top: 20px;
+      }
+    }
+  }
+}

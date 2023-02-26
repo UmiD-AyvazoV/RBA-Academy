@@ -1,0 +1,17 @@
+main {
+  .news {
+    flex-wrap: wrap;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .news {
+    margin-top: 150px;
+    a {
+      margin: 20px auto !important;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+main {
+  .books {
+    flex-wrap: wrap;
+    .book {
+      img {
+        width: 244px;
+        height: 354px;
+      }
+      .content {
+        max-height: 287px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sect12Cont {
+    .books {
+      .book {
+        flex-direction: column;
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .sect12Cont {
+    .books {
+      padding-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

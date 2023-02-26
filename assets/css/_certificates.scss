@@ -1,0 +1,19 @@
+main {
+  .certificates {
+    width: 1320px;
+    flex-wrap: wrap;
+    margin: auto;
+    .img {
+      margin: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1335px) {
+  .certificates {
+    width: 90% !important;
+    .img {
+      margin: auto auto 20px auto !important;
+    }
+  }
+}

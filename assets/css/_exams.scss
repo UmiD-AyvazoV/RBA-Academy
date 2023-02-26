@@ -1,0 +1,18 @@
+main {
+  .exams {
+    .boxs {
+      .box {
+        width: 315px;
+        max-height: 400px !important;
+        margin-bottom: 20px;
+        img {
+          width: 100%;
+        }
+      }
+      .box:hover {
+        width: 315px;
+        max-height: 500px !important;
+      }
+    }
+  }
+}

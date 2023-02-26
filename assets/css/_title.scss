@@ -1,0 +1,35 @@
+.titleCont {
+    background: #3ad4d8;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    .title {
+      max-width: 1320px;
+      margin: auto;
+      padding: 15px 60px;
+      .info {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #34485a;
+      }
+      .icon {
+        .img:nth-child(2) {
+          margin: 0 31px;
+        }
+        .img {
+          width: 13px;
+        }
+      }
+    }
+  }
+
+  .titleIcon {
+    position: absolute;
+    top: 650px;
+    left: 30px;
+  }
